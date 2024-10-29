@@ -1,0 +1,96 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/redBox"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="250dp"
+        android:background="#FF0000"
+        android:gravity="center"
+        android:text="RED"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/orangeBox"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/redBox"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="2dp"
+        android:layout_toEndOf="@id/redBox"
+        android:background="#FFA500"
+        android:gravity="center"
+        android:text="ORANGE"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/yellowBox"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/orangeBox"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@id/orangeBox"
+        android:background="#FFFF00"
+        android:gravity="center"
+        android:text="YELLOW"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/greenBox"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/yellowBox"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@id/yellowBox"
+        android:background="#00FF00"
+        android:gravity="center"
+        android:text="GREEN"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/blueBox"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/greenBox"
+        android:layout_marginStart="-160dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@id/greenBox"
+        android:background="#0000FF"
+        android:gravity="center"
+        android:text="BLUE"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/indigoBox"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/blueBox"
+        android:layout_marginStart="-162dp"
+        android:layout_marginTop="1dp"
+        android:layout_toEndOf="@id/blueBox"
+        android:background="#4B0082"
+        android:gravity="center"
+        android:text="INDIGO"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/violetBox"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/indigoBox"
+        android:layout_marginStart="-160dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@id/indigoBox"
+        android:background="#EE82EE"
+        android:gravity="center"
+        android:text="VIOLET"
+        android:textColor="@android:color/black" />
+
+</RelativeLayout>
